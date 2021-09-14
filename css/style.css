@@ -1,0 +1,167 @@
+body{
+    background-image: linear-gradient(120deg, #f3d983 0%, #fbf837 100%);
+}
+.container{
+    display:flex;
+    justify-content:space-around;
+}
+.sesion1{
+    background:rgba(0,0,0);
+    width:35%;
+    border-radius:30px;
+    padding:10px  10px;
+    margin-bottom:100px;
+    margin-top:100px;
+    border:8px solid #eee;
+
+}
+.content1{
+    display:grid;
+    place-items:center;
+    color:#f3d983;
+    margin-top:100px;
+
+}
+.content1 > img {
+    width:60%;
+    height:250px;
+    border-radius:20em;
+    object-fit:cover;
+}
+.content2{
+    color:#eee;
+    font-size:10px;
+    display:grid;
+    place-items:center;
+    padding:10px 20px;
+    margin-top:50px;
+}
+.content2 > h2{
+    color:#f3d983;
+}
+.line{
+    width:200px;
+    height:4px;
+    background:#fbf837;
+    border-radius:25px;
+    margin:auto;
+    margin-top:70px;
+    margin-bottom:110px;
+}
+.sesion1 > a{
+    color:#fbf837;
+    text-decoration:none;
+    font-size:20px;
+    position:absolute;
+    margin-top:-40px;
+    margin-left:350px;
+}
+.bx-right-arrow-alt{
+    position:absolute;
+    margin-top:6px;
+    margin-left:6px;
+}
+
+/*section two*/
+.sesion2{
+    width:35%;
+    height:800px;
+    margin-top:50px;
+    border-radius:30px;
+    background: url(../imgs/mgg-vitchakorn-mjj_UMRgtJY-unsplash.jpg);
+    background-position:top;
+    background-size:cover;
+    border:9px solid #eee;
+    margin-right:-10px;
+
+}
+.sesion2__content1{
+    background:rgba(0,0,0,.6);
+    backdrop-filter:blur(30px);
+    margin-top:266px;
+    border-radius:30px;
+    padding:10px;
+    
+}
+.sesion2__content2{
+    background:#fbf837;
+    border-radius:20px;
+    padding:10px 10px;
+    text-align:center;
+    width:70%;
+    margin: auto;
+    margin-top:-30px;
+}
+.sesion2__content2 > h2{
+    font-size:15px;
+}
+.name, .iconos{
+    display:flex;
+    justify-content:center;
+    margin-bottom:10px;
+}
+.photo{
+    width:60px;
+    height:60px;
+    border-radius:10em;
+    margin-right:20px;
+}
+
+.photo > img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    border-radius:10em;
+    object-position:top;
+}
+.bx-time-five, .bx-restaurant, .bxs-star{
+    font-size:35px;
+}
+.icon1, .icon2, .icon3{
+    margin-right:30px;
+    
+}
+.links{
+    margin-top:55px;
+}
+.links ul{
+    display:flex;
+    justify-content: space-around;
+}
+.links ul li {
+    list-style:none;
+}
+.links ul li a{
+    text-decoration:none;
+    color:#fbf837;
+    margin-left:-50px;
+}
+#a2::before{
+    content:'';
+    display:block;
+    background:#fbf837;
+    width:100px;
+    height:5px;
+    border-radius:20px;
+    margin-top:30px;
+    position:absolute;
+    margin-left:-70px;
+
+}
+
+.sesion2__content1 > p{
+    padding:10px 20px
+}
+.sesion2__content1 > a{
+    margin-left:170px;
+    background:#fbf837;
+}
+
+::-webkit-scrollbar{
+    width:8px;
+    background: #fbf837;
+}
+::-webkit-scrollbar-thumb{
+    background:#262626;
+    border-radius:20px;
+}
